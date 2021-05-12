@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python_project_template"
+version = "0.1.0"
+description = "A template for a python project."
+authors = ["Markus Kirkines"]
+license = "MIT"
+
+[tool.poetry.scripts]
+python_project_template = "python_project_template:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "1.19.3"
+nox = "^2020.8.22"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.790"
+flake8 = "^3.8.4"
+pylama = "^7.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
