@@ -13,6 +13,7 @@ python = "^3.8"
 numpy = "1.19.3"
 nox = "^2020.8.22"
 PyQt5 = "^5.15.4"
+tensorflow = "^2.4.1"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.790"
