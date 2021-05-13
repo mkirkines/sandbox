@@ -1,6 +1,6 @@
 import nox
 
-python_version = "3.9"
+python_version = "3.8"
 locations = "src", "tests", "noxfile.py"
 
 max_line_length = 75
